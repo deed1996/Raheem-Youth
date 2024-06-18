@@ -32,6 +32,9 @@ img {
 .raheem-young-header-svg {
     padding: 15px 50px 10px;
 }
+.raheem-young-header-svg img {
+    width: 500px;
+}
 .raheem-young--collab-signature {
     padding: 20px 0;
 }

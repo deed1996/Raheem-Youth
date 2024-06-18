@@ -525,11 +525,6 @@ img {
         width: 1500px;
     }
 }
-@media all and (max-width:900px) {
-    .raheem-young-header-rip img {
-        width: 98%;
-    }
-}
 @media all and (min-width: 968px) {
     .raheem-young-pink-bg-grid {
         padding: 40px 30px;
@@ -598,6 +593,9 @@ img {
     }
     .raheem-young-video-btm-rip {
         bottom: 45px;
+    }
+     .raheem-young-header-rip img {
+        width: 1500px;
     }
 }
 @media all and (max-width: 1135px) and (min-width: 786px) {

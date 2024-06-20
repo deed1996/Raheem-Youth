@@ -33,7 +33,7 @@ img {
     padding: 15px 50px 10px;
 }
 .raheem-young-header-svg img {
-    width: 500px;
+    max-width: 500px;
 }
 .raheem-young--collab-signature {
     padding: 20px 0;
@@ -44,9 +44,13 @@ img {
 }
 
 .raheem-young-header-rip {
-    margin-top: -5px;
-    z-index: 2;
-    position: absolute;
+    margin-top: -15px;
+    z-index: 3;
+    position: relative;
+}
+
+.header-rip {
+    margin-bottom: -5%; 
 }
 .raheem-young-hero-section,
 .raheem-young-pink-bg-grid {

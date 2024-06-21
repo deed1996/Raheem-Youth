@@ -3,10 +3,10 @@ function serveVideo() {
 
     if (window.innerWidth <= 500) {
         videoBit.innerHTML =
-            '<video crossorigin="anonymous" controls playsinline poster="https://cdn.media.amplience.net/i/clarks/db-uk-raheem-kids-video-ph-sq-wk30-ss23?w=400&fmt=auto" preload="none" width="100%" height="auto" class="image--rounded-border"><source src="https://cdn.media.amplience.net/v/clarks/db-uk-raheem-bts-portrait-wk31-ss23/webm_720p" type="video/webm"><source src="https://cdn.media.amplience.net/v/clarks/db-uk-raheem-bts-portrait-wk31-ss23/mp4_720p" type="video/mp4"><track kind="captions" src="https://clarks.a.bigcontent.io/v1/static/raheem-bts-video-wk31-ss23" srclang="en">Your browser does not support the video tag.</video>';
+            '<video controls playsinline poster="assets/raheem-kids-video-ph-sq.jpeg" preload="none" width="100%" height="auto" class="image--rounded-border"><source src="assets/raheem-bts-portrait.mp4" type="video/mp4"><track kind="captions" src="assets/raheem-bts-video.vtt" srclang="en"></video>';
     } else {
         videoBit.innerHTML =
-            '<video crossorigin="anonymous" controls playsinline poster="https://cdn.media.amplience.net/i/clarks/db-uk-raheem-kids-video-ph-fw-wk30-ss23?w=1440&fmt=auto" preload="none" width="100%" height="auto" class="image--rounded-border"><source src="https://cdn.media.amplience.net/v/clarks/db-uk-raheem-bts-landscape-wk31-ss23/webm_720p" type="video/webm"><source src="https://cdn.media.amplience.net/v/clarks/db-uk-raheem-bts-landscape-wk31-ss23/mp4_720p" type="video/mp4"><track kind="captions" src="https://clarks.a.bigcontent.io/v1/static/raheem-bts-video-wk31-ss23" srclang="en">Your browser does not support the video tag.</video>';
+            '<video controls playsinline poster="assets/raheem-kids-video-ph-fw.jpeg" preload="none" width="100%" height="auto" class="image--rounded-border"><source src="assets/raheem-bts-landscape.mp4" type="video/mp4"><track kind="captions" src="assets/raheem-bts-video.vtt" srclang="en">Your browser does not support the video tag.</video>';
     }
 }
 window.onload = serveVideo;

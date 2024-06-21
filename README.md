@@ -1,10 +1,6 @@
 # Raheem-Youth
 
-The design of this webpage is based on a Figma file, and all design rights are owned by Clarks.
-
-
 ## Table of contents
-
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -35,5 +31,6 @@ This webpage promotes the Back to School Collection created by Raheem Sterling f
 
 ## Author
 
-- Website - Devarshi Desai
-- Design - Clarks
+- Design - Designed by Clarks
+- Website - Built by Devarshi Desai
+
